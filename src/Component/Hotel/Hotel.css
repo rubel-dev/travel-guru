@@ -1,0 +1,22 @@
+.hotel{
+    display:flex;
+    margin-top: 15px; 
+    width:550px;
+}
+
+ .hotel_content{
+     margin-left: 20px;
+ }
+ .hotel_img{
+     margin-top: 8px;
+ }
+.hotel_img>img{
+    width:235px;
+}
+.hotel_content p{
+    color: gray;
+    font-size: 14px;
+}
+.hotel_content h4{
+    font-weight: 400;
+}

@@ -1,0 +1,39 @@
+.place_description{
+    width:400px;
+    float: left;
+    margin-right: 40px;
+     margin-top: 100px;
+    height: 300px;
+}
+.booking_information{
+    width:320px;
+    float: left;
+    margin-top: 120px;
+    padding:10px;
+    margin-left: 70px;
+    background-color: #fff;
+    border-radius:5px;
+}
+form p {
+    font-size: 14px;
+    color: #9a9595;
+}
+form>input {
+    width: 302px;
+    border: none;
+    background-color:#F2F2F2;
+    height: 40px;
+    border-radius: 5px;
+}
+
+ .input_box{
+     width:140px;
+ }
+ .same_style p{
+    color: white;
+ }
+ .same_style h1{
+     color: white;
+    font-weight:700;
+     font-size: 60px;
+ }

@@ -1,0 +1,40 @@
+.login_area{
+    width:360px;
+    margin: 5px auto;
+}
+.login_page{
+    width:360px;
+    margin: 0px auto;
+    max-height:400px;
+    border: 1px solid gray; 
+    padding: 15px;
+}
+ 
+.login_page>form>input{
+    border: none;
+    border-bottom: 1px solid gray;
+    background:#fff;
+     
+    margin-top: 10px;
+}
+.search_btn {
+    padding: 8px 75px; 
+    border: 1px solid #C9C9C9;
+    font-size: 16px;  
+    border-radius:20px;
+     
+}
+.google_bg{
+    background: url(../../Icon/google.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 17px 12px;
+}
+.fb_bg{
+    background: url(../../Icon/fb.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: 17px 9px;
+}
+
+ 

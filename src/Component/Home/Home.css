@@ -1,0 +1,63 @@
+
+.bg_style{
+    background-image: url(../../Image/Rectangle\ 1.png);
+    width:100%;
+    height: 650px;
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment:attachment; 
+   
+    
+}
+.bg_color{
+    background: #000;
+    height: 650px;
+    width:100%;
+    opacity: .5;
+    z-index: -5;
+}
+ 
+ 
+.slider_area{
+    width:900px;
+    height: 200px;
+    float: left;
+    margin-top: 150px;
+}
+.card{
+    width:220px;
+    float: left;
+    height: 300px;
+    
+    margin-left: 45px;
+    border-radius: 10px;
+    
+}
+.card:hover{
+    border:2px solid #F9A51A;
+}
+.card h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:200px ;
+}
+.cox_bg{
+    background-image: url(../../Image/Rectangle\ 1.png);
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.sreemangal_bg{
+    background-image: url(../../Image/Sreemongol.png);
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.sundarbans_bg{
+    background-image: url(../../Image/sundorbon.png);
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
