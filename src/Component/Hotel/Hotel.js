@@ -1,5 +1,4 @@
-import React from 'react';
-import Header from '../Header/Header';
+import React from 'react'; 
 import './Hotel.css'
 import StarIcon from '@material-ui/icons/Star';
 

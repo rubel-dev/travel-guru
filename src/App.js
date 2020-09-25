@@ -1,7 +1,5 @@
- import React, { createContext, useState } from 'react'; 
-import Header from './Component/Header/Header';
-import Home from './Component/Home/Home';
-import Root from './Component/Root/Root';
+ import React, { createContext, useState } from 'react';  
+import Home from './Component/Home/Home'; 
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +10,7 @@ import Login from './Component/Login/Login';
 import Place from './Component/Place/Place';
 import Book from './Component/Book/Book'; 
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
-import notFound from './Component/notFound/notFound';
+import NotFound from './Component/notFound/NotFound';
 
  export const UserContext = createContext();
 
@@ -41,7 +39,7 @@ import notFound from './Component/notFound/notFound';
               <Home></Home>
             </Route> 
             <Route path="*">
-                <notFound></notFound>
+                 <NotFound></NotFound>
             </Route>
         </Switch>  
       </Router>
