@@ -12,6 +12,7 @@ import Login from './Component/Login/Login';
 import Place from './Component/Place/Place';
 import Book from './Component/Book/Book'; 
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
+import notFound from './Component/notFound/notFound';
 
  export const UserContext = createContext();
 
@@ -23,6 +24,7 @@ import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
         
         <Switch> 
           <Route path='/home'> 
+          <Home></Home>
           </Route>
           <Route path="/login">
                 <Login></Login>
@@ -35,10 +37,12 @@ import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
                 <Place></Place>
             </Route>
           
-            <Route path ='/'> 
+            <Route exact path ='/'> 
               <Home></Home>
+            </Route> 
+            <Route path="*">
+                <notFound></notFound>
             </Route>
-          
         </Switch>  
       </Router>
     </UserContext.Provider>
