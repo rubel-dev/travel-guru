@@ -29,13 +29,15 @@
     width:220px;
     float: left;
     height: 300px;
-    
+ 
     margin-left: 45px;
     border-radius: 10px;
+    
     
 }
 .card:hover{
     border:2px solid #F9A51A;
+    cursor: pointer;
 }
 .card h2{
     color: white;
